@@ -1,0 +1,29 @@
+/**/
+html{
+    font-size: 10px;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+/**/
+.clearFloat:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.block-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
