@@ -3,10 +3,17 @@ import Router from 'vue-router'
 import Index from 'components/Index'
 import Article from 'components/Article'
 import ArticleList from 'components/ArticleList'
-import WriteArticle from 'components/WriteArticle'
-import a0 from 'article/a0'
-import a1 from 'article/a1'
-import a2 from 'article/a2'
+//import WriteArticle from 'components/WriteArticle'
+//import Editor from 'components/Editor'
+//import a0 from 'article/a0'
+//import a1 from 'article/a1'
+//import a2 from 'article/a2'
+//let aChildren = {};
+//for(let i=0;i<this.$store.state.a.length;i++){
+//  aChildren.path = this.$store.state.a.path;
+//  aChildren.component = this.$store.state.a.component
+//}
+//let test = this.$store.state.test;
 
 Vue.use(Router);
 
@@ -41,10 +48,15 @@ export default new Router({
         }
       ]
     },
-    {
-      path: '/writeArticle',
-      name: 'WriteArticle',
-      component: WriteArticle
-    }
+    //{
+    //  path: '/writeArticle',
+    //  name: 'WriteArticle',
+    //  component: WriteArticle
+    //},
+    //{
+    //  path: '/editor',
+    //  name: 'Editor',
+    //  component: Editor
+    //}
   ]
 })

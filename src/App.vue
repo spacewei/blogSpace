@@ -6,8 +6,8 @@
 </template>
 
 <script>
-  import jq from 'jquery'
-//  Vue.use(jq);
+  import normalize from './assets/css/normalize.css'
+  import common from './assets/css/common.css'
   export default {
     name: 'app'
   }

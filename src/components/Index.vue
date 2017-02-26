@@ -5,7 +5,7 @@
             <div>
                 <ul class="nav-index clearFloat">
                     <li><h3><router-link to="/articleList">文章列表</router-link></h3></li>
-                    <!--<li><h3><router-link to="/writeArticle">写文章</router-link></h3></li>-->
+                    <!--<li><h3><router-link to="/editor">写文章</router-link></h3></li>-->
                 </ul>
             </div>
             <!--<div id="test"></div>-->

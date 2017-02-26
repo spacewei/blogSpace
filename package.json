@@ -10,10 +10,11 @@
   },
   "dependencies": {
     "jquery": "^3.1.1",
-    "jquery-mobile": "^1.4.1",
     "vue": "^2.1.10",
     "vue-router": "^2.2.0",
-    "vuex": "^2.1.2"
+    "vuex": "^2.1.2",
+    "vuex-router-sync": "^4.1.2",
+    "wangeditor": "^2.1.22"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",
